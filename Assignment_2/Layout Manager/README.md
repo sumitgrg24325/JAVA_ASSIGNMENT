@@ -28,16 +28,16 @@
 The FlowLayout is used to arrange the components in a line, one after another (in a flow). It is the default layout of applet or panel.
 
 ### Fields of FlowLayout class
-1.public static final int LEFT
-2.public static final int RIGHT
-3.public static final int CENTER
-4.public static final int LEADING
-5.public static final int TRAILING
+1. public static final int LEFT
+2. public static final int RIGHT
+3. public static final int CENTER
+4. public static final int LEADING
+5. public static final int TRAILING
 
 ### Constructors of FlowLayout class
-1.FlowLayout(): creates a flow layout with centered alignment and a default 5 unit horizontal and vertical gap.
-2.FlowLayout(int align): creates a flow layout with the given alignment and a default 5 unit horizontal and vertical gap.
-3.FlowLayout(int align, int hgap, int vgap): creates a flow layout with the given alignment and the given horizontal and vertical gap.
+1. FlowLayout(): creates a flow layout with centered alignment and a default 5 unit horizontal and vertical gap.
+2. FlowLayout(int align): creates a flow layout with the given alignment and a default 5 unit horizontal and vertical gap.
+3. FlowLayout(int align, int hgap, int vgap): creates a flow layout with the given alignment and the given horizontal and vertical gap.
 
 ***
 
@@ -45,12 +45,12 @@ The FlowLayout is used to arrange the components in a line, one after another (i
 The CardLayout class manages the components in such a manner that only one component is visible at a time. It treats each component as a card that is why it is known as CardLayout.
 
 ### Constructors of CardLayout class
-1.CardLayout(): creates a card layout with zero horizontal and vertical gap.
-2.CardLayout(int hgap, int vgap): creates a card layout with the given horizontal and vertical gap.
+1. CardLayout(): creates a card layout with zero horizontal and vertical gap.
+2. CardLayout(int hgap, int vgap): creates a card layout with the given horizontal and vertical gap.
 
 ### Commonly used methods of CardLayout class
-1.public void next(Container parent): is used to flip to the next card of the given container.
-2.public void previous(Container parent): is used to flip to the previous card of the given container.
-3.public void first(Container parent): is used to flip to the first card of the given container.
-4.public void last(Container parent): is used to flip to the last card of the given container.
-5.public void show(Container parent, String name): is used to flip to the specified card with the given name.
+1. public void next(Container parent): is used to flip to the next card of the given container.
+2. public void previous(Container parent): is used to flip to the previous card of the given container.
+3. public void first(Container parent): is used to flip to the first card of the given container.
+4. public void last(Container parent): is used to flip to the last card of the given container.
+5. public void show(Container parent, String name): is used to flip to the specified card with the given name.
