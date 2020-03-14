@@ -1,4 +1,4 @@
-#Q.1, Explain various event object with its constructors ,methods and examples
+# Q.1, Explain various event object with its constructors ,methods and examples
 
 
 ## Various Event objects in java :
@@ -98,7 +98,7 @@ new AEvent();
 }  
 }
  ***
-#Q.2, Explain Event listeners interfaces with its methods
+# Q.2, Explain Event listeners interfaces with its methods
 The event delegation model contains two main components. First are the event sources and second are the listeners. Most of the listener interfaces are available in the java.awt.event package. In Java, there are several event listener interfaces which are listed below:
 
  
@@ -315,7 +315,7 @@ FocusEvent	|  FocusListener
 
 ***
 
-#Q.3, How do you handle event with an adaptor class in java?
+# Q.3, How do you handle event with an adaptor class in java?
 Adaptor Class
 Java adapter classes provide the default implementation of listener interfaces. If you inherit the adapter class, you will not be forced to provide the implementation of all the methods of listener interfaces. So it saves code.
 
@@ -346,7 +346,7 @@ MouseInputAdapter	| MouseInputListener
 InternalFrameAdapter	| InternalFrameListener
 
 ***
-#Q.4, Explain Closable Frame
+# Q.4, Explain Closable Frame
 A Frame doesnot have a close function in itslef. We have to write some codes to make the frame window close. We can close the AWT Window or Frame by calling dispose() or System.exit() inside windowClosing() method. The windowClosing() method is found in WindowListener interface and WindowAdapter class.
 
 The WindowAdapter class implements WindowListener interfaces. It provides the default implementation of all the 7 methods of WindowListener interface. To override the windowClosing() method, you can either use WindowAdapter class or WindowListener interface.
